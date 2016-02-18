@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #6d6d6d;
+  text-align: center; }
+  header h1, header h2 {
+    margin: 0;
+    padding: 10px; }
+
+main {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
