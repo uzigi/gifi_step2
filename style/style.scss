@@ -1,18 +1,40 @@
  body {
   margin:0;
   padding:0;
+   background-color: #BFD4D9 ;
 }
 header {
-
-  background-color: #6d6d6d;
+color: darkred;
+  background-color:#638CA6;
   text-align: center;
   h1, h2{
     margin:0 ;
     padding: 10px;
+    
   }
   
 }
 
 main {
   text-align: center;
+}
+
+#video {
+
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+
+
+}
+
+.controls {
+  background-color: #D93240;
+  padding:10px;
+
+}
+
+#select-user {
+  margin:10px;
+
 }
