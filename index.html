@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style/style.css">
-<script src="scripts/jquery-1.12.0.min.js"></script>
 <head>
     <meta charset="UTF-8">
     <title>FavourTube</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
 <header>
     <h1>Favour Tube</h1>
-
-    <h2>Share your favourite YouTube videos with friends.</h2>
-
+    <p>Share your favourite YouTube videos with friends.</p>
 </header>
 
 <main>
 
-    <iframe id="video" width="100%" height="450" src="//www.youtube.com/embed/vvCDHKYT3xQ?enablejsapi=1&html5=1" frameborder="0" allowfullscreen></iframe>
+    <iframe id="video" width="100%" height="450" src="//www.youtube.com/embed/vvCDHKYT3xQ?enablejsapi=1&html5=1"
+            frameborder="0" allowfullscreen></iframe>
     <div class="controls">
         <select id="select-user">
-            <option selected="selected">Select friend</option>
 
         </select>
+
         <div class="buttons"></div>
         <button id="play-button">Play</button>
         <button id="pause-button">Pause</button>
 
-        </div>
+    </div>
 
 </main>
 
-
+<script src="scripts/jquery-1.12.0.min.js"></script>
 <script src="scripts/main.js"></script>
 
 </body>
